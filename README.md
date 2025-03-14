@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+![Portfolio Preview](https://via.placeholder.com/1200x600?text=Project+Preview)  
+_A modern and responsive personal portfolio built with Next.js, Tailwind CSS, Motion.js, and Web3 Forms._
 
-First, run the development server:
+## 🚀 Technologies Used
+- **Next.js** – React framework for server-side rendering and static site generation.
+- **Tailwind CSS** – Utility-first CSS framework for styling.
+- **Motion.js** – Animation library for smooth UI interactions.
+- **Web3 Forms** – Serverless form handling for contact forms.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌟 Features
+- Fully responsive and mobile-friendly.
+- Smooth animations using Motion.js.
+- Fast performance with Next.js SSR/SSG.
+- Contact form with Web3 Forms integration.
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/Yandisa619/Personal-Portfolio-2.git
+   cd Personal-Portfolio-2
+   ```
+
+2. **Install dependencies**
+   ```sh
+   npm install  # or yarn install
+   ```
+
+3. **Start the development server**
+   ```sh
+   npm run dev  # or yarn dev
+   ```
+
+4. **Open in browser:**
+   ```
+http://localhost:3000
+   ```
+
+## 🎨 Usage
+- Modify the content in the `components` and `pages` directories.
+- Customize styles in `tailwind.config.js` and `globals.css`.
+- Update the Web3 Forms endpoint in the contact form component.
+
+## 🚀 Deployment
+This project can be deployed on **Vercel** or **Netlify**:
+
+### Deploy to Vercel
+```sh
+npm run build
+vercel deploy
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Deploy to Netlify
+1. Push code to GitHub.
+2. Link repository to Netlify.
+3. Select Next.js as the build preset.
+4. Deploy 🚀
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🤝 Contributing
+Feel free to submit issues or pull requests. Any improvements are welcome!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
+This project is open-source and available under the **MIT License**.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+💡 **Created by [Yandisa619](https://github.com/Yandisa619)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
