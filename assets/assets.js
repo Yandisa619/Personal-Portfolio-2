@@ -78,14 +78,16 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Movie Rating Application',
-        description: 'React Web Application',
+        title: 'Car Rental Application',
+        description: 'Car Rental Application built using the MERN STACK and deployed on Vercel',
         bgImage: '/work-1.png',
+        a: { href: 'https://car-rental-yandisa-ndubela.vercel.app/' }
     },
     {
-        title: 'Facial Recognition Clocking System',
-        description: 'Python desktop Application',
+        title: 'Learner Management System',
+        description: 'LMS system built using the MERN stack and deployed on Vercel',
         bgImage: '/work-2.png',
+        a: { href: 'https://lms-yandisa-ndubela-dusky-six.vercel.app/' }
     },
     {
         title: 'Library Management System',
